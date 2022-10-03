@@ -1,3 +1,9 @@
-var re=
+function add(a ,b)
+{
+    console.log("Hello world");
+    return(a+b);
+}
 
-console.log("Helo worls")
+var num=add(10,30);
+
+console.log("     "+num+"    ")
