@@ -1,9 +1,18 @@
-function add(a ,b)
+var read=require('readline-sync')
+
+var s=read.question("Enter two numbers")
+var s2=read.question("")
+
+if(s>s2)
 {
-    console.log("Hello world");
-    return(a+b);
+ console.log("First number is larger\n")
 }
-
-var num=add(10,30);
-
-console.log("     "+num+"    ")
+else if(s===s2)
+{
+    
+ console.log("Equell\n")
+}
+else
+{
+    console.log("second number is larger\n")
+   }
