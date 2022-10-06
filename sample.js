@@ -1,18 +1,20 @@
-var read=require('readline-sync')
 
-var s=read.question("Enter two numbers")
-var s2=read.question("")
 
-if(s>s2)
+
+var list={name:"Azad",age:20,place:"Ramapuram", displ : function()
 {
- console.log("First number is larger\n")
+    console.log(this.name)
+}}
+
+console.log(list.displ())
+
+list.azad=function(c)
+{
+    console.log(c)
 }
-else if(s===s2)
-{
-    
- console.log("Equell\n")
-}
-else
-{
-    console.log("second number is larger\n")
-   }
+
+console.log(list)
+
+list.azad(100)
+
+console.log(list)
